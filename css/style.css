@@ -1,0 +1,283 @@
+.container-general{
+    display: flex;
+    margin: 10%
+    
+
+}
+
+.margenIzqdo{
+    width: 10px;
+    height: 16px;
+    background: white;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    left: 130px;
+}
+
+.margenDrcho {
+    width: 10px;
+    height: 16px;
+    background: white;
+    border-bottom-left-radius: 30px;
+    position: relative;
+    left: 810px;
+}
+        /*MANDO IZQUIERDO*/
+.mando-izq{
+    background: #09b1db;
+    height: 320px;
+    width: 110px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius:90px ;
+    box-shadow: -2px  #0f9abd;
+    
+}
+    .encendido {
+        background: black;
+        border: none;
+        position: relative;
+        top: 10px;
+        left: 80px;
+        width: 1.4em;
+        height: 7px;
+        border-radius: 3px;
+
+    }
+
+    .joystick {
+        background: black;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        position: relative;
+        top: 30px;
+        left: 40px;
+        display: flex;
+        justify-content: center;
+
+    }
+    .capa2joystick {
+        background: rgb(36, 34, 34);
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        align-self: center;
+    }
+    .botones {
+        position: relative;
+        top: 65px;
+        display: flex;
+        flex-direction: column;
+    }
+    #arriba {
+        height: 20px;
+        width: 20px;
+        border-radius: 50px;
+        background: black;
+        border: none;
+        position: relative;
+        left: 50px;
+    
+    }
+    #flechaArriba{
+        color: rgb(65, 59, 50);
+    }
+    #drcha {
+        height: 20px;
+        width: 20px;
+        border-radius: 50px;
+        background: black;
+        border: none;
+        position: relative;
+        left: 70px;
+
+    }
+    #flechaDrcha {
+        color: rgb(65, 59, 50);
+
+    }
+    #abajo {
+        height: 20px;
+        width: 20px;
+        border-radius: 50px;
+        background: black;
+        border: none;
+        position: relative;
+        left: 50px;
+
+    }
+    #flechaAbajo {
+        color: rgb(65, 59, 50);
+
+    }
+    #izqda {
+        height: 20px;
+        width: 20px;
+        border-radius: 50px;
+        background: black;
+        border: none;
+        position: relative;
+        left: 30px;
+        bottom: 39px;
+    }
+    #flechaIzqda {
+        color: rgb(65, 59, 50);
+
+    }
+
+    .altavoz {
+        position: relative;
+        top: 60px;
+        left: 70px;
+        width: 15px;
+        height: 15px;
+        background: rgb(37, 31, 31);
+        display: flex;
+        justify-content: center;
+    }
+    
+    #circulo-altavoz {
+        background: rgb(51, 51, 56);
+        border-radius: 50px;
+        width: 8px;
+        height: 8px;
+        align-self: center;
+    }
+
+            /*PARTE DERECHA*/
+.mando-drcho {
+    background: red;
+    height: 320px;
+    width: 120px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+
+    .flechasPeq {
+        position: relative;
+        background: ;
+        height: 15px;
+        width: 15px;
+        top: 15px;
+        left: 10px;
+    }
+    .flechasPeq i {
+        font-weight: bold;
+    }
+
+    .botonesLetras {
+        position: relative;
+        top: 25px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    #X {
+        height:20px;
+        width: 20px;
+        color: rgb(255, 255, 255);
+        background:black;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 40px;
+       
+
+        
+    }
+    #Y {
+        height:20px;
+        width: 20px;
+        color: rgb(255, 255, 255);
+        background: black;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 40px;
+        left: 18px;
+    }
+    #A {
+        height:20px;
+        width: 20px;
+        color: rgb(255, 255, 255);
+        background: black;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 63px;
+    }
+    #B {
+        height:20px;
+        width: 20px;
+        color: rgb(255, 255, 255);
+        background: black;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 40px;
+    }
+
+    .joystickDrcho {
+        background: black;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        position: relative;
+        top: 45px;
+        left: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    #boton-home {
+        width: 20px;
+        height: 20px;
+        background: black;
+        border-radius:50px;
+        border: 3px solid grey;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 80px;
+        left: 25px;
+
+    }
+    #boton-home i {
+        color: orange;
+        font-size: 0.7em;
+        align-self: center;
+    }
+
+        /*PARTE CENTRAL*/
+
+.estructura-pantalla{
+    height: 320px;
+    width: 700px;
+    background: rgb(100, 96, 96);
+    display: flex;
+    justify-content: center;
+}
+
+.borde-pantalla {
+    height: 300px;
+    width: 650px;
+    background: black;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pantalla {
+    height: 300px;
+    width: 600px;
+    background-image: url(/img/ImagenFondo.png);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    
+}
+
+

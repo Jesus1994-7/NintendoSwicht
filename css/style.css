@@ -280,4 +280,12 @@
     
 }
 
+/*QUITAR MANDOS*/
+
+.mando-drcho:hover {
+    transform: translate(0,-150px);
+}
+.mando-izq:hover {
+    transform: translate(0,-150px);
+}
 

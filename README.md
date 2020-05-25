@@ -10,4 +10,5 @@
 
 5.- En la parte derecha tenemos un icono para la flecha direccional, 4 botones realizados con DIVS (X, Y, A, B) y dentro de otro principal,
     otro analógico más y otro div con apariencia de boton con un icono HOME.
-    
+
+6.- Se le ha aplicado un hover a los mandos para darles la opción de ser quitados.
